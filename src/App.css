@@ -1,0 +1,1013 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.contact-us,
+.sign-up,
+.marketing,
+.consulting {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.home {
+  background-image: url('./images/img-2.png');
+  background-repeat: no-repeat;
+  background-position:right;
+  display:block;  
+  width: 100%;
+    min-height: calc(100vh - 70px);
+    max-height: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.notFound{
+  background-image: url('./assets/manutencao-site.png');
+  width: 1700px;
+  height: 1200px;
+  background-repeat: no-repeat;
+}
+
+
+#healthy{
+  font-size: 2rem;
+}
+
+#search1{
+  width: 25%;
+  margin-left: 90px;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border-color: rgb(77, 22, 22);
+  font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-width: 0.2vh;
+}
+
+#search2, .search2{
+  width: 55%;
+  margin-left: 115px;
+  margin-top: 245px;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border-color: rgb(77, 22, 22);
+  font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-width: 0.2vh;
+}
+
+.barsearch{
+  margin-top: -90px;
+}
+
+.barsearch1{
+  margin-top: -370px;
+  margin-left: 160px;
+}
+
+.ready{
+  color: rgb(29, 22, 77);
+  font-size: 4rem;
+  position: relative;
+  width: 25%;
+  box-sizing: border-box;
+  min-height: 1px;
+  left: auto;
+/*   background-color: blue;
+ */  margin: 1.4em;
+}
+
+#title {
+  margin: 80px;
+  color: rgb(29, 22, 77);
+  text-align: center;
+    font-size: 3rem;  
+    max-width: 100%;
+
+}
+.paragrafo{
+  color: rgb(181, 162, 180);
+  text-align: center;
+    font-size: 1.5rem; 
+    font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 1rem;
+}
+
+.bestServices{
+  background-image: url('/src/images/bloco_services.png');
+  width: 800px;
+}
+
+.services {
+  float: right;
+  grid-auto-flow: column;
+  background-color: rgb(24, 23, 94);
+  width: 3rem;
+  background-repeat: no-repeat;
+}
+
+
+.bgImg{
+  background-image: url('./images/comida_1.png');
+  width: 100%;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 768px)
+  .md\:w-56 {
+      width: 14rem;    
+  }
+}
+
+.bgImg2{
+  background-image: url('./images/comida_2.png');
+  width: 100%;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 768px)
+  .md\:w-56 {
+      width: 14rem;    
+  }
+}
+
+.bgImg3{
+  background-image: url('./images/comida_3.png');
+  width: 100%;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 768px)
+  .md\:w-56 {
+      width: 14rem;    
+  }
+}
+.bgImg4{
+  background-image: url('./images/comida_4.png');
+  width: 100%;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  @media (min-width: 768px)
+  .md\:w-56 {
+      width: 14rem;    
+  }
+}
+
+.bloco3 {
+  background-image: url('./images/bloco_services.png');
+  background-repeat: no-repeat;
+  display:block;  
+  margin-top: 80px;
+  width: 100%;
+    min-height: calc(100vh - 70px);
+    max-height: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.bloco4 {
+  background-image: url('./images/Nova pasta/bloco_final_image.png');
+  background-repeat: no-repeat;
+  display:block;  
+  margin-top: 80px;
+  width: 100%;
+    min-height: calc(100vh - 70px);
+    max-height: 1200px;
+    position: relative;
+    overflow: hidden;
+    background-position: right;
+    float: left;
+}
+
+#title2 {
+  position: absolute;
+  left: 250px;
+  margin: 50px;
+  margin-right: 300px;
+  margin-top: 120px;
+  margin-left: 400px;
+  color: rgb(29, 22, 77);
+  text-align: left;
+  font-size: 3rem;  
+    
+}
+
+.title3 {
+  line-height: 0.9;
+  font-size: 2.5rem;
+
+}
+
+.title4{position: absolute;
+  left: 200px;
+  margin: 50px;
+  margin-right: 800px;
+  margin-top: 270px;
+/*   margin-left: 400px;
+ */  color: rgb(29, 22, 77);
+  text-align: left;
+  font-size: 3rem;}
+
+  .title5{position: absolute;
+    left: 200px;
+    margin: 50px;
+    margin-right: 300px;
+    margin-top: 330px;
+  /*   margin-left: 400px;
+   */  color: rgb(29, 22, 77);
+    text-align: left;
+    font-size: 3rem;}
+
+
+.paragrafo1{
+  color: rgb(181, 162, 180);
+    font-size: 1.5rem; 
+    font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 30px;
+}
+
+.paragrafoF{
+  color: rgb(24, 23, 94);
+    font-size: 1rem; 
+    font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: -25px;
+  margin-left: 120px;
+  margin: 20px;
+}
+.paragrafoc{
+  color: rgb(24, 23, 94);
+    font-size: 1rem; 
+    font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: -25px;
+  margin-left: 120px;
+}
+
+.paragrafoF1{
+  color: rgb(195, 193, 211);
+    font-size: 1rem; 
+    
+    font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: -18px;
+  margin-right: 200px;
+  text-align: right;
+}
+
+.btn3{
+position: relative;
+padding: 8px 25px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  background-color: hsl(75, 64%, 62%);
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 40px;
+
+}
+
+.fa-search{
+    position: relative;
+    border:none;
+    padding: 15px 19px;
+    margin-left: 20px;   
+    font-size: 15px;
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(75, 64%, 62%);
+    
+    }
+
+    .btnJoin{
+      padding: 15px 19px;
+    margin-left: 20px;   
+    font-size: 15px;
+    border-radius: 8px;
+    }
+
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f7f8fc;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+}
+.container {
+
+  width: 1040px;
+  margin: 0 auto;
+  
+}
+
+.carousel{
+  display: flex;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+
+/* the slides */
+.slick-slide {
+  margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+  margin: 0 -10px;
+}
+
+.container-space{
+  display: flexbox;
+  margin: 100px;
+  margin: 0 auto;
+
+}
+
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 320px;
+}
+.card-header img {
+  
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 180px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.card-body h4 {
+  color: rgb(29, 22, 77);
+    font-size: 1.8rem;  
+    max-width: 100%;
+}
+
+
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-name {
+  margin-top: 10px;
+    color: rgb(158, 155, 175);
+
+}
+.user-info small {
+  color: #545d7a;
+
+}
+
+.space-card{
+
+  margin: 1rem;
+  background-color: rgb(240, 14, 14);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.course {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+  display: inline-flex;
+  margin: 20px;
+  overflow: hidden;
+  width: 500px;
+  height: 12.1rem;
+}
+
+.grid1{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 40px;
+}
+.course-preview {
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.course-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+
+/* .products {
+  background-image: url('./images/img-3.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+/* 
+.contact-us {
+  background-image: url('./images/img-4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('./images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.marketing {
+  background-image: url('./images/img-6.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.consulting {
+  background-image: url('./images/img-5.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
+
+.slick-prev, .slick-next{
+  background: hsl(75, 64%, 62%);
+  border-radius: 15px;
+  padding:0;
+  border-color: transparent;
+  width: 2vw;
+  height: 2vw;
+  cursor: pointer;
+  border: none;
+  border-radius: 5vw;
+  background-color: #a1ceaac2;
+  z-index: 99 !important;
+  box-shadow: rgb(35 35 35 / 50%) 0px 0px 20px 5px;
+  top: 40%;
+}
+
+#search11{
+  display: none;
+}
+.search0, .search1{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+/* TELA DE CADASTRO */
+
+.background_register{
+  color: rgb(19, 17, 17);
+}
+
+.formulario{
+  
+  width: 380px;
+  height: 1070px;
+  margin: 80px auto;
+  background-color: #1011119d;
+  padding-left: 25px;
+  border-radius: 12px;
+  
+
+}
+
+.register_cadastro{
+  font-size: 3rem;
+  color: hsl(0, 0%, 1%);
+  color: hsl(75, 64%, 62%);
+  padding-left: 30px;
+  }
+
+.h1register{
+font-size: 1rem;
+display: flex;
+flex-direction: column;
+margin-bottom: 5px;
+font-size: 1.5rem;
+font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-top: 0.3rem;
+color: hsl(75, 64%, 62%);
+}
+
+
+
+.borda_barra{
+  height: 25px;
+  border-radius: 5px;
+
+}
+
+.name_cadastro, .name_cep, .name_complemento{
+  width: 80%;
+
+}
+
+.name_date{
+  width: 46%;
+}
+
+.name_estado{
+  width: 15%;
+}
+
+
+.btn_cadastro{
+
+  padding: 8px 30px;
+  margin-top: 8px;
+  border-radius: 4px;
+  font-size: 18px;
+  color: hsl(75, 64%, 62%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE TABLET  */
+  
+@media screen and (max-width: 1300px) and (min-width:768px) {
+
+
+.home{
+background-position: initial;
+background-color: rgba(24, 26, 24, 0.788);
+}
+
+.ready{
+  background-color: rgba(24, 26, 24, 0.788);
+  color: rgb(223 220 244);
+  font-size: 4rem;
+  position: relative;
+  width: 80%;
+  box-sizing: border-box;
+  min-height: 1px;
+  left: auto;
+  /* background-color: blue; */
+  margin: 1.4em;
+  margin-top: 720px;
+  text-align: -webkit-center;
+}
+
+.navbar-logo {
+  color: hsl(0, 0%, 0%);
+}
+
+  .container, .container-space{
+    display:none;
+  }
+
+  .title3{
+    margin-top: 40px;
+    color: aquamarine;
+    font-size: 3rem;
+
+  }
+  
+  
+
+  #title2{
+    text-align: center;
+    left: 0px;
+    height: 681px;
+    padding-right:40px ;
+    width: 100%;
+    background: rgba(24, 26, 24, 0.788);
+    align-items: flex-end;
+    margin: 0px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    /* margin-right: 30px; */
+    color: rgb(29, 22, 77);
+    text-align: center;
+    font-size: 2rem;
+    align-items: unset;
+  }
+
+  .barsearch1{
+width: 100%;
+
+  }
+
+  #search1 {
+    width: 45%;
+  }
+
+  .grid1{
+    background: rgba(24, 26, 24, 0.521);
+  }
+
+  .bloco4 {
+        background-image: none;
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-right: 30px;
+    color: rgb(29, 22, 77);
+    text-align: center;
+    font-size: 2rem;
+    align-items: unset;
+    min-height: 625px;
+    margin-top: 40px;
+  }
+  .paragrafo1{
+    display: block;
+    color: rgb(255, 255, 255);
+      font-size: 1.7rem; 
+      font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 70px;
+    margin-left: 3.5vh;
+  }
+
+  .bloco3{
+    min-height: calc(100vh - 500px);
+    position:static;
+
+  }
+  .col-md-12, .title4{
+    width: 85%;
+    margin-right: 0;
+  }
+
+  .title4{
+    width: 100%;
+    left: 0; 
+    margin: 0;
+    margin-top: 0px;
+    color: aquamarine;
+    text-align: center;
+    font-size: 3.1rem;
+    background-color: #10182f;
+  }
+
+  .paragrafo{
+    color: #10182f;
+  }
+  .paragrafoc{
+    color: rgb(0, 0, 0);
+      font-size: 1rem; 
+      font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -18px;
+    margin-left: 120px;
+  }
+
+
+  .search2{
+    width: 100%;
+    margin-top: 403px;
+  margin-left: 0px;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border-color: rgb(77, 22, 22);
+  font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-width: 0.2vh;
+  }
+
+
+  .parag123{
+    display: none;
+  }
+}
+
+/* RESPONSIVE PHONE  */
+  
+@media screen and (max-width: 768px) and (min-width:360px) {
+  
+  
+  body {
+    display: flow-root;
+  }
+
+  .home{
+    background-position: top;
+    background-color: rgba(24, 26, 24, 0.788);
+    }
+
+    .navbar-logo {
+      color: hsl(0, 0%, 0%);
+    }
+
+  .ready{
+    background-color: rgba(24, 26, 24, 0.788);
+    color: rgb(223 220 244);
+    font-size: 4rem;
+    padding-left: 30px;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    box-sizing: border-box;
+    min-height: 1px;
+    left: auto;
+    /* background-color: blue; */
+    margin: 1.4em;
+    margin-top: -40px;
+  }
+
+  .home{
+    background-image: url('./images/img-2.png');
+  background-repeat: no-repeat;
+  background-position:right;
+  display:flex;  
+  width: 100%;
+    min-height: calc(100vh - 70px);
+    max-height: 1200px;
+    position: relative;
+    overflow: hidden;
+    background-position: initial;
+    background-color: rgba(24, 26, 24, 0.788);
+    }
+
+    .barsearch{
+      margin-top: 300px;
+    }
+
+    
+  .parag123{
+    display: none;
+  }
+
+  .search0{   margin-top: 100px;
+  width: 60%;
+  margin-left: 44px;
+  }
+
+  #search1{
+    width: 75%;
+    margin-left: -16px;
+  }
+
+  .fa-search{
+    background-color: #10182f;
+  }
+
+  #title {
+    margin: 20px;
+  }
+
+  .grid1{
+    background-color: rgba(24, 26, 24, 0.788);
+  }
+
+  .course {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 20%);
+    display: inline-flex;
+    margin: 20px;
+    overflow: hidden;
+    width: 368px;
+    height: 12.1rem;
+}
+
+.course-info {
+  padding: 19px;
+  position: relative;
+  width: 100%;
+}
+
+.progress, .progress-container, .textoGrid{
+padding-left: 12px;
+text-align: center;
+}
+
+.bloco3 {
+  background-image: url(/static/media/bloco_services.4f8ebed0.png);
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+    background-color: rgba(24, 26, 24, 0.788);
+
+
+
+}
+
+#title2{
+  position: absolute;
+  left: 20px; 
+  margin: 50px;
+  margin-right: 30px; 
+  margin-top: 10px; 
+  margin-left: 25px; 
+  color: rgb(252, 252, 252);
+  text-align: left;
+  font-size: 3rem;
+
+}
+
+.title3{
+  line-height: 0.9;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(29, 22, 77);
+  
+}
+
+.scroller {
+  width: 335px;
+    margin-top: 10px;
+    height: 410px;
+    padding: 10px;
+    overflow-y: scroll;
+    background-color: rgba(24, 26, 24, 0.89);
+    text-align: justify;
+    line-height: 2rem;
+}
+.bloco4{
+background-image: url(/static/media/bloco_final_image.ec3d1bde.png);
+background-repeat: no-repeat;
+display: block;
+margin-top: 0px; 
+width: 100%;
+min-height: calc(92vh - 70px);
+max-height: 1200px;
+position: absolute;
+overflow: hidden;
+background-position: right;
+float: left;
+}
+.title4{
+  
+    background-color: rgb(24 26 24 / 93%);
+    color: rgb(223 220 244);
+    font-size: 3.4rem;
+    padding-left: 30px;
+    position: absolute;
+    width: 320px;
+    height: none;
+    box-sizing: border-box;
+    min-height: 1px;
+    left: -55px;
+    margin: none;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#search2 {
+  display: none;
+  width: 62%;
+    margin-left: 0px;
+    height: 45px;
+    padding: 0 20px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border-radius: 6px;
+  border-color: rgb(77, 22, 22);
+  font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-width: 0.2vh
+}
+
+.fa-search11 {
+  position: relative;
+  border: none;
+  padding: 15px 19px;
+  margin-left: 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(75, 64%, 62%);
+}
+
+#search11{
+  
+  height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border-color: rgb(77, 22, 22);
+    font-family: Georgia, 'Times New Roman', Times, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-width: 0.2vh;
+    width: 105%;
+    margin-left: 45px;
+    margin-top: 95px;
+}
+
+.btn3{
+background-color: #10182f;
+}
+
+.search02{
+  padding: 45px;
+  padding-top: 95px;
+  margin-left: 25px;
+}
+
+}

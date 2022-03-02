@@ -1,0 +1,47 @@
+.nav-menu{
+    background-color: black;
+    width: 90vw;
+}
+
+.navbar-logo{
+    width: 150px;
+    color: black;
+    margin-left: 20px;
+    text-align: center
+}
+
+.nav-links{
+color: white;
+text-decoration: none;
+padding: 0.5rem 7rem;
+}
+
+.register {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: hsl(75, 64%, 62%);
+    cursor: pointer;
+    background-color: var(--primary);
+    margin-right: 125px;
+
+}
+
+
+.home{
+    background-image: none;
+}
+
+.ready{
+    display: none;
+}
+
+.fa-search{
+    display: none;
+}
+
+#search1{
+    display: none;
+}
