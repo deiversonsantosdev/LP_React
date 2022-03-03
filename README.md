@@ -1,5 +1,7 @@
 # Site Estruturado com React (Front-end) Responsivo. 
 
+https://user-images.githubusercontent.com/94877105/156572106-20342f55-edd5-4144-838b-c82d1ed65cda.mp4
+
 > Além da página inicial, foi desenvolvido uma tela de cadastro baseada na tela inicial; 
 
 > Foi utilizado a biblioteca Formik para desenvolver o formulário recebendo os seguintes dados:
